@@ -36,39 +36,182 @@
                 <h1 class="promo_title">
                     Я студент Freshcode на курсе <span>FULL-STACK JS DEVELOPER</span>
                 </h1>
-                <a href="#about">
-                    <button class="promo_btn">
-                        Про меня
-                    </button>
-                </a>
+                <div class="promo_buttons">
+                    <a href="#about">
+                        <button class="promo_buttons-btn">
+                            Про меня
+                        </button>
+                    </a>
+                    <a href="" class="promo_buttons-contacts">
+                        Контакты
+                    </a>
+                </div>
             </article>
         </section>
     </header>
     <main>
         <section class="about" id="about">
-            <article class="container">
-                <div class="wrapper">
+            <div class="container">
+                <article class="wrapper">
                     <div class="about_photo">
                         <img src="img/main_photo.jpg" alt="main photo">
                     </div>
                     <div class="about_descr">
-                        <div class="about_subtitle">
+                        <div class="about_descr-subtitle">
                             Про меня
                         </div>
-                        <h2 class="about_title">
+                        <h2 class="about_descr-title">
                             Меня зовут Клименко Максим
                         </h2>
-                        <div class="about_divider"></div>
-                        <p class="about_text">
+                        <div class="about_descr-divider"></div>
+                        <p class="about_descr-text">
                             Я ответственный, проактивный, стрессоустойчивый, коммуникабельный, честный. Мои сильные стороны — хорошие управленческие и лидерские навыки, клиентоориентированность, системное мышление, позитивный настрой. Обладаю высокой работоспособностью, умею работать в режиме многозадачности и в команде, имею развитые организационные и управленческие способности.
-                            <wbr>
-                            Хобби: чтение книг, театр, опера. Замужем, двое детей. 
-                            <wbr>
-                            Личные качества: целеустремленность, амбициозность, коммуникабельность, стрессоустойчивость. Заинтересована в развитии в сфере IT.
+                            <br><br>
+                            Личные качества: целеустремленность, амбициозность, коммуникабельность, стресоустойчивость. Заинтересована в развитии в сфере IT.
                         </p>
                     </div>
+                    <div class="about_scils">
+                        <div class="about_scils-education">
+                            <h3>Образование</h3>
+                            <div class="about_scils-divider"></div>
+                        </div>
+                        <div class="about_scils-item">
+                            <div class="about_scils-icons">
+                                <img src="icons/about_me/university.svg" alt="university">
+                            </div>
+                            <div>
+                                <div class="about_scils-title">Днипропетровская медицинская академия</div>
+                                <div class="about_scils-descr">В 2011 году поступил  в Днепропетровскую медицинскую академию на факультет лечебное дело по бюджетному контракту. Окончил в 2017 году</div>
+                            </div>
+                        </div>
+                        <div class="about_scils-item">
+                            <div class="about_scils-icons">
+                                <img src="icons/about_me/university.svg" alt="university">
+                            </div>
+                            <div>
+                                <div class="about_scils-title">Запорожский медицинский государственый университет</div>
+                                <div class="about_scils-descr">В 2017 году поступил в ЗМГУ на факультет последипломого образования на специальность хирургия. 2020 году получил специальность врач-хирург</div>
+                            </div>
+                        </div>
+                        <div class="about_scils-item">
+                            <div class="about_scils-icons">
+                                <img src="icons/about_me/web_development.svg" alt="desing">
+                            </div>
+                            <div>
+                                <div class="about_scils-title">Udemy</div>
+                                <div class="about_scils-descr">Прошол 2021 гоу короткие курсы по HTML+CSS</div>
+                            </div> 
+                        </div>
+                        <div class="about_scils-item">
+                            <div class="about_scils-icons">
+                                <img src="icons/about_me/web_development.svg" alt="desing">
+                            </div>
+                            <div>
+                                <div class="about_scils-title">Freshcode</div>
+                                <div class="about_scils-descr">С 08.07.22 по настоящее время прохожу курсы FULL-STACK JS DEVELOPER</div>
+                            </div> 
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+        <section class="skills">
+            <div class="container">
+                <div class="skills_subtitle">
+                    Навыки
                 </div>
-            </article>
+                <h2 class="skills_title">
+                    Навыки которые буду использовать в работе
+                </h2>
+                <div class="skills_divider"></div>
+                <article class="skills_items">
+                    <div class="skills_item">
+                        <img src="icons/skills/html5.svg" alt="html5" class="skills_item-icons">
+                        <h2 class="skills_item-title">HTML5</h2>
+                        <div class="skills_item-descr">Именно он создает каркас вашего сайта или приложения, а пятая версия позволит мне создавать более SEO-оптимизированную структуру вашего продукта</div>
+                    </div>
+                    <div class="skills_item">
+                        <img src="icons/skills/css3.svg" alt="CSS3" class="skills_item-icons">
+                        <h2 class="skills_item-title">CSS3</h2>
+                        <div class="skills_item-descr">Этот язык стилей позволяет мне создавать абсолютно любой внешний вид вашего сайта или приложения. Все ограничивается только вашей фантазией!</div>
+                    </div>
+                    <div class="skills_item">
+                        <img src="icons/skills/js.svg" alt="JS" class="skills_item-icons">
+                        <h2 class="skills_item-title">Java Script</h2>
+                        <div class="skills_item-descr">Этот язык программирования позволяет оживить все что угодно: слайдеры, окна, подсказки, вкладки, получение данных от сервера и многое другое</div>
+                    </div>
+                    <div class="skills_item">
+                        <img src="icons/skills/jquery.svg" alt="Jquery" class="skills_item-icons">
+                        <h2 class="skills_item-title">Jquery</h2>
+                        <div class="skills_item-descr">Библиотека Jquery позволит ускорить разработку. Без необходимости интегрировать в проект мы её не будем, но навык работы с ней присутствует</div>
+                    </div>
+                    <div class="skills_item">
+                        <img src="icons/skills/react.svg" alt="react" class="skills_item-icons">
+                        <h2 class="skills_item-title">React</h2>
+                        <div class="skills_item-descr">Эта библиотека позволяет создавать web-приложения. Мы можем создать максимально интерактивный продукт именно под ваши цели</div>
+                    </div>
+                    <div class="skills_item">
+                        <img src="icons/skills/node.js.svg" alt="node.js" class="skills_item-icons">
+                        <h2 class="skills_item-title">Node.js</h2>
+                        <div class="skills_item-descr">Эта платформа позволяет создавать бэкенд для вашего продукта - “мозги”, которые будут выполнять действия, которые пользователь не видит</div>
+                    </div>
+                    <div class="skills_item">
+                        <img src="icons/skills/mongo.db.svg" alt="mongoDB" class="skills_item-icons">
+                        <h2 class="skills_item-title">Mongo.db</h2>
+                        <div class="skills_item-descr">Это нереляционная база данных, которая будет хранить данные вашего сайта или приложения</div>
+                    </div>
+                </article>
+            </div>
+        </section>
+        <section class="contacts">
+            <div class="container">
+                <article class="contacts_wrapper">
+                    <div class="contacts_photo">
+                        <img src="img/main_photo.jpg" alt="main photo">
+                    </div>
+                    <div class="contacts_descr">
+                        <div class="contacts_descr-subtitle">
+                            Контакты
+                        </div>
+                        <h2 class="contacts_descr-title">
+                            Свяжитесь со мной
+                        </h2>
+                        <div class="contacts_descr-divider"></div>
+                        <div class="contacts_descr-text">
+                            Любым удобным для вас способом:
+                        </div>
+                        <div class="contacts_descr-contact">
+                            <a href="https://www.facebook.com/profile.php?id=100010584066430" target="_blank" class="contacts_descr-icon">
+                                <img src="icons/contacts/facebook.svg" alt="facebook">
+                            </a>
+                            <a href="#" target="_blank" class="contacts_descr-icon">
+                                <img src="icons/contacts/instagram.svg" alt="instagram">
+                            </a>
+                            <a href="https://t.me/Klymenko_Maksym" target="_blank" class="contacts_descr-icon">
+                                <img src="icons/contacts/telegram.svg" alt="telegram">
+                            </a>
+                        </div>
+                        <div class="contacts_descr-text">
+                            Или оставьте ваши данные и я сама вам напишу:
+                        </div>
+                    </div>
+                    <form action="#" class="contacts_form">
+                        <div class="contacts_form-input">
+                            <input required name="name" type="name">
+                            <label for="name">Ваше имя</label>
+                        </div>
+                        <div class="contacts_form-input">
+                            <input required name="email" type="email">
+                            <label for="email">Ваша почта</label>
+                        </div>
+                        <div class="contacts_form-textarea">
+                            <textarea name="text" ></textarea>
+                            <label for="tex">Ваше сообщение</label>
+                        </div>
+                        <button class="contacts_form-btn">Отправить сообщение</button>
+                    </form>
+                </article>
+            </div>
         </section>
     </main>
 </body>
